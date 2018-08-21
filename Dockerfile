@@ -4,7 +4,7 @@ ENV REFRESHED_AT 2018-08-19
 
 ### Install additional programs
 RUN apt-get update && apt-get install -y \
-	locales localeconf language-pack-de language-pack-de-base \
+	locales language-pack-de language-pack-de-base \
 ###  gimp \
   && rm -rf /var/lib/apt/lists/*
 
