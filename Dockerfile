@@ -9,6 +9,9 @@ RUN apt-get update && apt-get install -y \
 	handbrake handbrake-cli \
 ###  gimp \
   && rm -rf /var/lib/apt/lists/*
+  
+### ENV PATH2GIMP
+### ENV PATH2DIGIKAM
 
 RUN  locale-gen de_DE.UTF-8
 RUN update-locale LANG=de_DE.UTF-8
