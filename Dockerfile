@@ -19,8 +19,8 @@ RUN apt-get update && apt-get install -y \
 COPY desktop/*.desktop /usr/share/applications/
 
 ### DL freefilesync
-RUN mkdir ~/ffs
-RUN cd ffs
+RUN mkdir /root/ffs
+RUN cd /root/ffs
 ADD https://freefilesync.org/download/FreeFileSync_10.3_Linux_64-bit.tar.gz .
 RUN tar -xf FreeFileSync_10.3_Linux_64-bit.tar.gz
 
