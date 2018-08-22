@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=digikam
+Comment[de]=digikam 5.9
+Exec=/mnt/homes/admin/digikam/squashfs-root/AppRun
+Icon=/mnt/homes/admin/digikam/squashfs-root/digikam.png
+Terminal=false
+Type=Application
+Categories=Graphics
+StartupNotify=false
