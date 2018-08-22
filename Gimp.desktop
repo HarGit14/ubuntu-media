@@ -1,9 +1,0 @@
-[Desktop Entry]
-Name=Gimp
-Comment[de]=Bildbarbeitung Gimp
-Exec=/mnt/Public/gimp/AppDir/AppRun
-Icon=/mnt/Public/gimp/AppDir/gimp.png
-Terminal=false
-Type=Application
-Categories=Graphics
-StartupNotify=false
