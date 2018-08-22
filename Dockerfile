@@ -8,7 +8,7 @@ RUN apt-get update && apt-get install -y \
 	bsdtar \
 	handbrake handbrake-cli \
 	libopenal1 libusb-1.0-0 \
-###	wget \
+	wget \
 ###  gimp \
   && rm -rf /var/lib/apt/lists/*
   
