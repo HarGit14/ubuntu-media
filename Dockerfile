@@ -1,6 +1,6 @@
 FROM dorowu/ubuntu-desktop-lxde-vnc:xenial
 MAINTAINER Harald Graf  
-ENV REFRESHED_AT 2018-08-19
+ENV REFRESHED_AT 2018-08-22
 
 ### Install additional programs
 RUN apt-get update && apt-get install -y \
