@@ -14,6 +14,9 @@ RUN apt-get update && apt-get install -y \
 ### ENV PATH2GIMP
 ### ENV PATH2DIGIKAM
 
+### copy desktop files into container
+COPY desktop/*.desktop /usr/share/applications/
+
 RUN  locale-gen de_DE.UTF-8
 RUN update-locale LANG=de_DE.UTF-8
 ENV LANG=de_DE.UTF-8
