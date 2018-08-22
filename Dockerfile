@@ -22,6 +22,7 @@ COPY desktop/*.desktop /usr/share/applications/
 RUN mkdir ~/ffs
 RUN cd ffs
 ADD https://freefilesync.org/download/FreeFileSync_10.3_Linux_64-bit.tar.gz .
+RUN tar -xf FreeFileSync_10.3_Linux_64-bit.tar.gz
 
 RUN  locale-gen de_DE.UTF-8
 RUN update-locale LANG=de_DE.UTF-8
