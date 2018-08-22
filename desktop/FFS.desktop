@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=FreeFileSync
+Comment[de]=Sicherungstool FreeFileSync
+Exec=/root/ffs/FreeFileSync/FreeFileSync
+Icon=/root/ffs/FreeFileSync/FreeFileSync.png
+Terminal=false
+Type=Application
+Categories=Utility
+StartupNotify=false
