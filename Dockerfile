@@ -6,6 +6,7 @@ ENV REFRESHED_AT 2018-08-19
 RUN apt-get update && apt-get install -y \
 	locales language-pack-de language-pack-de-base \
 	bsdtar \
+	handbrake handbrake-cli \
 ###  gimp \
   && rm -rf /var/lib/apt/lists/*
 
