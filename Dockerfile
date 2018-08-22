@@ -7,7 +7,7 @@ RUN apt-get update && apt-get install -y \
 	locales language-pack-de language-pack-de-base \
 	bsdtar \
 	handbrake handbrake-cli \
-	libopenal1 libusb \
+	libopenal1 libusb-1.0-0 \
 ###	wget \
 ###  gimp \
   && rm -rf /var/lib/apt/lists/*
