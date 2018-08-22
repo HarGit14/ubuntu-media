@@ -1,9 +1,0 @@
-[Desktop Entry]
-Name=vlc
-Comment[de]=Video LAN Client
-Exec=/mnt/Public/vlc/squashfs-root/AppRun
-Icon=/mnt/Public/vlc/squashfs-root//vlc.png
-Terminal=false
-Type=Application
-Categories=AudioVideo
-StartupNotify=false
