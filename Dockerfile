@@ -8,6 +8,7 @@ RUN apt-get update && apt-get install -y \
 	bsdtar \
 	handbrake handbrake-cli \
 	libopenal1 libusb \
+###	wget \
 ###  gimp \
   && rm -rf /var/lib/apt/lists/*
   
@@ -16,6 +17,11 @@ RUN apt-get update && apt-get install -y \
 
 ### copy desktop files into container
 COPY desktop/*.desktop /usr/share/applications/
+
+### DL freefilesync
+RUN mkdir ~/ffs
+RUN cd ffs
+ADD https://freefilesync.org/download/FreeFileSync_10.3_Linux_64-bit.tar.gz .
 
 RUN  locale-gen de_DE.UTF-8
 RUN update-locale LANG=de_DE.UTF-8
