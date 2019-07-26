@@ -21,7 +21,8 @@ COPY desktop/*.desktop /usr/share/applications/
 ### DL freefilesync
 RUN mkdir /root/ffs
 RUN cd /root/ffs
-ADD https://freefilesync.org/download/FreeFileSync_10.3_Linux_64-bit.tar.gz .
+ADD https://freefilesync.org/download/FreeFileSync_10.14_Linux.tar.gz .
+### https://freefilesync.org/download/FreeFileSync_10.14_Linux.tar.gz
 RUN tar -xf FreeFileSync_10.3_Linux_64-bit.tar.gz
 
 RUN  locale-gen de_DE.UTF-8
